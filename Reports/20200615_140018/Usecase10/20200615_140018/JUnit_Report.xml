@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase10" time="51.362" tests="3" failures="0" errors="0">
+   <testsuite name="Usecase10" tests="3" failures="0" errors="0" time="51.362" timestamp="2020-06-15 14:00:19" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Usecase10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\DBDtest-script\\Reports\\20200615_140018\\Usecase10\\20200615_140018"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\DBDtest-script\\Reports\\20200615_140018\\Usecase10\\20200615_140018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="f7677a5d7063342b77b795a859e85b6d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case1" time="7.944" classname="Test Cases/Test Case1" status="PASSED">
+         <system-out><![CDATA[2020-06-15 14:00:19 - [TEST_CASE][PASSED] - Test Cases/Test Case1: Test Cases/Test Case1
+
+2020-06-15 14:00:20 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-15 14:00:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-15 14:00:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-15 14:00:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-15 14:00:24 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Username"), findTestData("D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-15 14:00:25 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-15 14:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Password"), findTestData("D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-15 14:00:26 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-15 14:00:26 - [TEST_STEP][PASSED] - click(findTestObject("1/Page_Users/Sign in")): Object: 'Object Repository/1/Page_Users/Sign in' is clicked on
+
+2020-06-15 14:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1/Page_Users/Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/connect" time="20.555" classname="Test Cases/connect" status="PASSED">
+         <system-out><![CDATA[2020-06-15 14:00:27 - [TEST_CASE][PASSED] - Test Cases/connect: Test Cases/connect
+
+2020-06-15 14:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/DBD Companies")): Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-15 14:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-15 14:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Search company")): Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 14:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 14:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DBDCompanies/input company"), findTestData("D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-15 14:00:40 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-15 14:00:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Search company")): Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 14:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 14:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-15 14:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case16" time="22.035" classname="Test Cases/Test Case16" status="PASSED">
+         <system-out><![CDATA[2020-06-15 14:00:48 - [TEST_CASE][PASSED] - Test Cases/Test Case16: Test Cases/Test Case16
+
+2020-06-15 14:00:48 - [TEST_STEP][PASSED] - click(findTestObject("activies/strong_Activities  0")): Object: 'Object Repository/activies/strong_Activities  0' is clicked on
+
+2020-06-15 14:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/activies/strong_Activities  0' is clicked on
+
+2020-06-15 14:00:49 - [TEST_STEP][PASSED] - click(findTestObject("add activity/button_Add Activity")): Object: 'Object Repository/add activity/button_Add Activity' is clicked on
+
+2020-06-15 14:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/add activity/button_Add Activity' is clicked on
+
+2020-06-15 14:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input__subject"), findTestData("D8").getValue(1, 1)): Text 'Anatomy' is set on object 'Object Repository/Activity/input activity/input__subject'
+
+2020-06-15 14:00:52 - [MESSAGE][PASSED] - Text 'Anatomy' is set on object 'Object Repository/Activity/input activity/input__subject'
+
+2020-06-15 14:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/activity type")): Object: 'Object Repository/Activity/input activity/activity type' is clicked on
+
+2020-06-15 14:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/activity type' is clicked on
+
+2020-06-15 14:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input activity type"), findTestData("D8").getValue(2, 1)): Text 'Call' is set on object 'Object Repository/Activity/input activity/input activity type'
+
+2020-06-15 14:00:53 - [MESSAGE][PASSED] - Text 'Call' is set on object 'Object Repository/Activity/input activity/input activity type'
+
+2020-06-15 14:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input activity type"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input activity type'
+
+2020-06-15 14:00:54 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input activity type'
+
+2020-06-15 14:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/Assign to")): Object: 'Object Repository/Activity/input activity/Assign to' is clicked on
+
+2020-06-15 14:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/Assign to' is clicked on
+
+2020-06-15 14:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input assign to"), findTestData("D8").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/Activity/input activity/input assign to'
+
+2020-06-15 14:00:55 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Activity/input activity/input assign to'
+
+2020-06-15 14:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input assign to"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input assign to'
+
+2020-06-15 14:00:56 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input assign to'
+
+2020-06-15 14:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/Sales Type")): Object: 'Object Repository/Activity/input activity/Sales Type' is clicked on
+
+2020-06-15 14:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/Sales Type' is clicked on
+
+2020-06-15 14:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input sales type"), findTestData("D8").getValue(4, 1)): Text 'Pre-Sale' is set on object 'Object Repository/Activity/input activity/input sales type'
+
+2020-06-15 14:00:58 - [MESSAGE][PASSED] - Text 'Pre-Sale' is set on object 'Object Repository/Activity/input activity/input sales type'
+
+2020-06-15 14:00:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Activity/input activity/input sales type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input sales type'
+
+2020-06-15 14:00:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input sales type'
+
+2020-06-15 14:00:58 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input__date start"), findTestData("D8").getValue(7, 1)): Text '11/02/2020 ' is set on object 'Object Repository/Activity/input activity/input__date start'
+
+2020-06-15 14:00:59 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/Activity/input activity/input__date start'
+
+2020-06-15 14:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input__time_start"), findTestData("D8").getValue(13, 1)): Text '03:19 PM' is set on object 'Object Repository/Activity/input activity/input__time_start'
+
+2020-06-15 14:01:00 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/Activity/input activity/input__time_start'
+
+2020-06-15 14:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input__end_date"), findTestData("D8").getValue(8, 1)): Text '11/02/2020 ' is set on object 'Object Repository/Activity/input activity/input__end_date'
+
+2020-06-15 14:01:01 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/Activity/input activity/input__end_date'
+
+2020-06-15 14:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input__time_end"), findTestData("D8").getValue(14, 1)): Text '03:24 PM' is set on object 'Object Repository/Activity/input activity/input__time_end'
+
+2020-06-15 14:01:02 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/Activity/input activity/input__time_end'
+
+2020-06-15 14:01:02 - [TEST_STEP][PASSED] - click(findTestObject("click to clear/div_My CalendarShared CalendarCalendar ListRecently ModifiedLoading Widget")): Object: 'Object Repository/click to clear/div_My CalendarShared CalendarCalendar ListRecently ModifiedLoading Widget' is clicked on
+
+2020-06-15 14:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/click to clear/div_My CalendarShared CalendarCalendar ListRecently ModifiedLoading Widget' is clicked on
+
+2020-06-15 14:01:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-15 14:01:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-15 14:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/status result")): Object: 'Object Repository/Activity/input activity/status result' is clicked on
+
+2020-06-15 14:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/status result' is clicked on
+
+2020-06-15 14:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input status result"), findTestData("D8").getValue(10, 1)): Text 'Done' is set on object 'Object Repository/Activity/input activity/input status result'
+
+2020-06-15 14:01:05 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/Activity/input activity/input status result'
+
+2020-06-15 14:01:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Activity/input activity/input status result"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input status result'
+
+2020-06-15 14:01:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input status result'
+
+2020-06-15 14:01:05 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/product group")): Object: 'Object Repository/Activity/input activity/product group' is clicked on
+
+2020-06-15 14:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/product group' is clicked on
+
+2020-06-15 14:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input product group"), "Fax"): Text 'Fax' is set on object 'Object Repository/Activity/input activity/input product group'
+
+2020-06-15 14:01:06 - [MESSAGE][PASSED] - Text 'Fax' is set on object 'Object Repository/Activity/input activity/input product group'
+
+2020-06-15 14:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input product group"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input product group'
+
+2020-06-15 14:01:07 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/Activity/input activity/input product group'
+
+2020-06-15 14:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/show time as")): Object: 'Object Repository/Activity/input activity/show time as' is clicked on
+
+2020-06-15 14:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/show time as' is clicked on
+
+2020-06-15 14:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/input show time as"), findTestData("D8").getValue(11, 1)): Text 'Out of Office' is set on object 'Object Repository/Activity/input activity/input show time as'
+
+2020-06-15 14:01:08 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/Activity/input activity/input show time as'
+
+2020-06-15 14:01:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Activity/input activity/input show time as"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input show time as'
+
+2020-06-15 14:01:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Activity/input activity/input show time as'
+
+2020-06-15 14:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Activity/input activity/textarea__description"), findTestData("D8").getValue(12, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/Activity/input activity/textarea__description'
+
+2020-06-15 14:01:10 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/Activity/input activity/textarea__description'
+
+2020-06-15 14:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Activity/input activity/button_Save")): Object: 'Object Repository/Activity/input activity/button_Save' is clicked on
+
+2020-06-15 14:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Activity/input activity/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-15 14:00:19 - [TEST_SUITE][PASSED] - Usecase10: Test Cases/Test Case16]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase8" time="46.048" tests="2" failures="0" errors="0">
+   <testsuite name="Usecase8" tests="2" failures="0" errors="0" time="46.048" timestamp="2020-06-15 13:59:23" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Usecase8">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\DBDtest-script\\Reports\\20200615_135921\\Usecase8\\20200615_135921"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\DBDtest-script\\Reports\\20200615_135921\\Usecase8\\20200615_135921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="e418505f5ab7bdd1c627b75bf498a3b5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case1" time="8.0" classname="Test Cases/Test Case1" status="PASSED">
+         <system-out><![CDATA[2020-06-15 13:59:23 - [TEST_CASE][PASSED] - Test Cases/Test Case1: Test Cases/Test Case1
+
+2020-06-15 13:59:23 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-15 13:59:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-15 13:59:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-15 13:59:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-15 13:59:28 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Username"), findTestData("D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-15 13:59:29 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/1/Page_Users/Username'
+
+2020-06-15 13:59:29 - [TEST_STEP][PASSED] - setText(findTestObject("1/Page_Users/Password"), findTestData("D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-15 13:59:29 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/1/Page_Users/Password'
+
+2020-06-15 13:59:29 - [TEST_STEP][PASSED] - click(findTestObject("1/Page_Users/Sign in")): Object: 'Object Repository/1/Page_Users/Sign in' is clicked on
+
+2020-06-15 13:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1/Page_Users/Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case14" time="37.203" classname="Test Cases/Test Case14" status="PASSED">
+         <system-out><![CDATA[2020-06-15 13:59:31 - [TEST_CASE][PASSED] - Test Cases/Test Case14: Test Cases/Test Case14
+
+2020-06-15 13:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/DBD Companies")): Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-15 13:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/DBD Companies' is clicked on
+
+2020-06-15 13:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Search company")): Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 13:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 13:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DBDCompanies/input company"), findTestData("D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-15 13:59:50 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/Page_DBDCompanies/input company'
+
+2020-06-15 13:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/button_Search company")): Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 13:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-15 13:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-15 14:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-15 14:00:03 - [TEST_STEP][PASSED] - click(findTestObject("More/button_More")): Object: 'Object Repository/More/button_More' is clicked on
+
+2020-06-15 14:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/More/button_More' is clicked on
+
+2020-06-15 14:00:03 - [TEST_STEP][PASSED] - click(findTestObject("More/a_Duplicate")): Object: 'Object Repository/More/a_Duplicate' is clicked on
+
+2020-06-15 14:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/More/a_Duplicate' is clicked on
+
+2020-06-15 14:00:04 - [TEST_STEP][PASSED] - click(findTestObject("More/button_Save")): Object: 'Object Repository/More/button_Save' is clicked on
+
+2020-06-15 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/More/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-15 13:59:23 - [TEST_SUITE][PASSED] - Usecase8: Test Cases/Test Case14]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
